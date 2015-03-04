@@ -1,0 +1,11 @@
+{
+  "name": "bellboy-broker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bellboy Api Broker",
+  "main": "index.js",
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "dependencies": {
+    "socket.io-client": "^1.2.1"
+  }
+}

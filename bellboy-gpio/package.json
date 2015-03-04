@@ -1,0 +1,12 @@
+{
+  "name": "bellboy-gpio",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "onoff": "^1.0.0"
+  }
+}

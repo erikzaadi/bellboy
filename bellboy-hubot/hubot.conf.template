@@ -1,0 +1,7 @@
+#!/bin/bash                                                
+export HUBOT_HIPCHAT_JID=""
+export HUBOT_HIPCHAT_PASSWORD=""                 
+export HUBOT_HIPCHAT_ROOMS=""
+export BELLBOY_LOUD_ROOM=""
+export BELLBOY_SILENT_ROOM=""
+export BELLBOY_EXTERNAL_ADDRESS=""

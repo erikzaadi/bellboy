@@ -1,0 +1,13 @@
+{
+  "name": "bellboy-services",
+  "version": "1.0.0",
+  "private": true,
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "scripts": {
+    "start": "node ./index"
+  },
+  "dependencies": {
+    "forever": "^0.13.0",
+    "mustache": "^1.0.0"
+  }
+}

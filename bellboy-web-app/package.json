@@ -1,0 +1,19 @@
+{
+  "name": "bellboy-web-app",
+  "version": "1.0.0",
+  "private": true,
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "main": "app.js",
+  "dependencies": {
+    "debug": "~2.1.1",
+    "express": "~4.10.6",
+    "install": "^0.1.8",
+    "jade": "~1.8.2",
+    "morgan": "~1.5.1",
+    "nedb": "^1.1.1",
+    "q": "^1.1.2",
+    "serve-favicon": "~2.2.0",
+    "socket.io": "^1.2.1",
+    "stylus": "0.42.3"
+  }
+}

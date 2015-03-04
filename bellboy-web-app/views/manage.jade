@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Bellboy
+  h2 Manage
+  div
+    button#enable(type="button", onClick="enable()") Enable
+  div
+    button#disable(type="button", onClick="disable()") Disable
+
+block scripts
+  script(src="/js/manage.js")

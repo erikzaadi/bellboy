@@ -1,0 +1,12 @@
+{
+  "name": "bellboy-soundservice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plays sounds for our bellboy",
+  "main": "index.js",
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "dependencies": {
+    "player": "^0.3.0",
+    "request": "^2.53.0"
+  }
+}

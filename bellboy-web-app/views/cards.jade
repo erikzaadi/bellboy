@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1 Bellboy
+  h2 Unidentified Scans:
+  #cardScans
+  hr
+  h2 Add new card:
+  form#addCard(onSubmit="addCard();return false;")
+    label 
+      | Card ID
+      input#newCard(type="text", required)
+    label
+      | User
+      input#newUser(type="email", required)
+    button#addCardButton(type="button", onClick="addCard()") Add
+  hr
+  button#listCards(type="button", onClick="listCards()") List all cards
+  #cardLists
+
+block scripts
+  script(src="/js/cards.js")

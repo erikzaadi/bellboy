@@ -1,0 +1,14 @@
+{
+  "name": "bellboy-hubot",
+  "version": "1.0.0",
+  "private": true,
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "description": "Our faithful door guardian HipChat bot",
+  "dependencies": {
+    "hubot": "^2.11.0",
+    "hubot-hipchat": "^2.7.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

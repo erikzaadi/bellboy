@@ -1,0 +1,8 @@
+{
+  "name": "bellboy-cam",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bellboy Camera Module",
+  "main": "index.js",
+  "author": "erikzaadi <erik.zaadi@gmail.com>"
+}

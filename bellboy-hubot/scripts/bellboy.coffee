@@ -19,7 +19,6 @@
 # Configuration:
 # BELLBOY_SILENT_ROOM
 # BELLBOY_LOUD_ROOM
-# BELLBOY_EXTERNAL_ADDRESS - Hostname or IP
 #   
 #
 # Author:
@@ -31,7 +30,6 @@ apiCaller = require('../../bellboy-broker')()
 module.exports = (robot) ->
   loudRoom = process.env.BELLBOY_LOUD_ROOM
   silentRoom = process.env.BELLBOY_SILENT_ROOM
-  externalAddress = process.env.BELLBOY_EXTERNAL_ADDRESS
   enabled = true
 
   openDoor = (msg) ->
@@ -117,10 +115,10 @@ module.exports = (robot) ->
     robot.messageRoom loudRoom, 'Bellboy disabled'
     enabled = false
 
-  apiCaller.on 'snapshotTaken', () ->
-    console.log 'snapshotTaken'
+  apiCaller.on 'snapshotTaken', (imageUrl) ->
+    console.log 'snapshotTaken', imageUrl
     for room in [loudRoom, silentRoom]
-      robot.messageRoom room, "http://#{externalAddress}:3000/snapshot.png?cacheBusterz=#{Math.round(Math.random() * 321321).toString()}"
+      robot.messageRoom room, "#{imageUrl}?cacheBusterz=#{Math.round(Math.random() * 321321).toString()}"
 
   apiCaller.on 'listSoundResult', (data) ->
     for room in [loudRoom, silentRoom]

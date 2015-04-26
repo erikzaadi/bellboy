@@ -57,6 +57,7 @@
   ```
 * copy ```bellboy-hubot/hubot.conf.template``` to ```hubot.conf``` and fill in the needed details
 * add your own sounds in the ```bellboy-soundservice/sounds``` directory and add your own ```sounds.config.json``` file according to the ```bellboy-soundservice/README.md``` instructions.
+* copy ```bellboy-cam/config.json.template``` to ```config.json``` and fill in the s3 credentials
 * run ```bellboy-services/bootstrap.sh```:
 * have a coffee, this will take a while
 

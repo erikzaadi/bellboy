@@ -1,0 +1,6 @@
+{
+  "accessKeyId":     "<AWS_accessKeyId>",
+  "secretAccessKey": "<AWS_secretAccessKey>",
+  "bucket":          "<AWS_bucketName>",
+  "prefix":          "/optional/prefix/at/bucket"
+}

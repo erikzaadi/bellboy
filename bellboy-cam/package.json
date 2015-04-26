@@ -4,5 +4,9 @@
   "version": "1.0.0",
   "description": "Bellboy Camera Module",
   "main": "index.js",
-  "author": "erikzaadi <erik.zaadi@gmail.com>"
+  "author": "erikzaadi <erik.zaadi@gmail.com>",
+  "dependencies": {
+    "moment": "^2.10.2",
+    "s3": "^4.4.0"
+  }
 }

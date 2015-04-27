@@ -14,7 +14,7 @@ var moment = require("moment");
 var client = s3.createClient({
   s3Options: {
     accessKeyId: config.accessKeyId,
-    secretAccessKey: confing.secretAccessKey
+    secretAccessKey: config.secretAccessKey
   },
 });
 
